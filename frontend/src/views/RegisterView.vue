@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, reactive, computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { NForm, NFormItem, NInput, NButton, NAlert, NSpin, useMessage } from 'naive-ui'
+import { NCard, NForm, NFormItem, NInput, NButton, NAlert, NSpin, useMessage } from 'naive-ui'
 import { register } from '../api/auth'
 import { extractErrorMessage } from '../api/http'
 
