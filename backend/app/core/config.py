@@ -20,8 +20,8 @@ class Settings(BaseSettings):
 
     # LLM moderation
     llm_api_key: str = ""
-    llm_base_url: str = "https://api.openai.com/v1"
-    llm_model: str = "gpt-4o-mini"
+    llm_base_url: str = "https://open.bigmodel.cn/api/paas/v4"
+    llm_model: str = "glm-5.3"
     llm_timeout_seconds: int = 15
 
     # Seeded admin account for Resource B testing
